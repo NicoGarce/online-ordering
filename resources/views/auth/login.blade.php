@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
